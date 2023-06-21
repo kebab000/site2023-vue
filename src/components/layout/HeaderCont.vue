@@ -1,7 +1,7 @@
 <template>
   <header
     id="header"
-    class="header__wrap nexon5 bg-blue"
+    class="header__wrap nexon5 bg-vue"
     role="heading"
     aria-level="1"
   >
@@ -33,9 +33,9 @@
 </template>
 <style lang="scss">
 // header__wrap
-// #header {
-//   background-color: #1c8021;
-// }
+#header {
+  background-color: #e9fef5a2;
+}
 .header__inner {
   text-align: center;
 

@@ -2,11 +2,11 @@
   <div>
     <main>
       <SliderSection attr="slider__wrap section nexon5" />
-      <IntroSection attr="intro__wrap section bg-blue nexon5" />
-      <PortSection attr="ports__wrap section center bg-blue" />
-      <YoutubeSection attr="youtube__wrap section nexon5" />
-      <UnsplashSection attr="unsplash__wrap section bg-blue nexon5" />
-      <MovieSection attr="movie__wrap section nexon5" />
+      <IntroSection attr="intro__wrap section bg-vue nexon5" />
+      <PortSection attr="ports__wrap section center" />
+      <YoutubeSection attr="youtube__wrap section bg-vue nexon5" />
+      <UnsplashSection attr="unsplash__wrap section nexon5" />
+      <MovieSection attr="movie__wrap section bg-vue nexon5" />
     </main>
   </div>
 </template>

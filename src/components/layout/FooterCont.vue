@@ -1,9 +1,5 @@
 <template>
-  <footer
-    id="footer"
-    class="footer__wrap section bg-blue nexon5"
-    role="contentinfo"
-  >
+  <footer id="footer" class="footer__wrap section nexon5" role="contentinfo">
     <div class="footer__inner container">
       <div class="footer__text">
         <h5>kebab00</h5>
@@ -15,30 +11,27 @@
         <ul class="sns">
           <li>
             <router-link to="/">
-              <!-- <img src="../../assets/images/footer/footer01.svg" alt="페이스북" /> -->
+              <img src="@/assets/images/footer/footer01.svg" alt="페이스북" />
             </router-link>
           </li>
           <li>
             <router-link to="/">
-              <!-- <img
-                src="../assets/images/footer/footer02.svg"
-                alt="인스타그램"
-              /> -->
+              <img src="@/assets/images/footer/footer02.svg" alt="인스타그램" />
             </router-link>
           </li>
           <li>
             <router-link to="/">
-              <!-- <img src="../assets/images/footer/footer03.svg" alt="유튜브" /> -->
+              <img src="@/assets/images/footer/footer03.svg" alt="유튜브" />
             </router-link>
           </li>
           <li>
             <router-link to="/">
-              <!-- <img src="../assets/images/footer/footer04.svg" alt="깃헙" /> -->
+              <img src="@/assets/images/footer/footer04.svg" alt="깃헙" />
             </router-link>
           </li>
           <li>
             <router-link to="/">
-              <!-- <img src="../assets/images/footer/footer05.svg" alt="디스코드" /> -->
+              <img src="@/assets/images/footer/footer05.svg" alt="디스코드" />
             </router-link>
           </li>
         </ul>
@@ -135,10 +128,10 @@
   </footer>
 </template>
 <style lang="scss">
+//footer__wrap
 .footer__wrap {
   .footer__inner {
     flex-wrap: wrap;
-    // @include flex-between;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,6 +152,7 @@
       }
       > ul {
         > li {
+          margin-right: 5px;
           display: inline-block;
           position: relative;
           > a {
@@ -170,7 +164,7 @@
           }
           &::before {
             content: "";
-            background-color: #f5f5f5;
+            background-color: #dbfaec;
             width: 35px;
             height: 35px;
             border-radius: 50%;

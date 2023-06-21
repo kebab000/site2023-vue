@@ -1,5 +1,7 @@
 # site-vue01
 
+## Vue.js
+vue.js를 사용해서 만든 사이트 입니다.
 ## Project setup
 ```
 npm install
