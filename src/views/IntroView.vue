@@ -1,5 +1,5 @@
 <template>
-  <div class="intro">
-    <h1>This is an intro page</h1>
+  <div>
+    <ContTitle title="Intro" />
   </div>
 </template>

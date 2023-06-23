@@ -1,7 +1,7 @@
 <template>
   <div class="Unsplash__cont container">
     <ul>
-      <li v-for="(image, index) in unsplashs" :key="index">
+      <li v-for="(image, index) in images" :key="index">
         <a :href="`https://unsplash.com/photos/${image.id}`" target="_blank">
           <img :src="image.urls.regular" :alt="image.alt_description" />
         </a>
@@ -12,7 +12,7 @@
 <script>
 export default {
   props: {
-    unsplashs: {
+    images: {
       type: Array,
       required: true,
     },
