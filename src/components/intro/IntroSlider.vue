@@ -2,7 +2,7 @@
   <div className="intro__slider nexon5">
     <Swiper
       :modules="modules"
-      :slides-per-view="8"
+      :slides-per-view="10"
       :spaceBetween="3"
       @swiper="onSwiper"
       @slideChange="onSlideChange"
