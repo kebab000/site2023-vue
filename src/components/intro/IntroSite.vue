@@ -15,91 +15,198 @@
 export default {
   data() {
     return {
-      items: [
+      intros: [
         {
-          url: "https://kebab000.github.io/web2023/",
-          src: "introitem00.png",
-          title: "webs2023 메인페이지",
+          src: "introSlider00-min.jpeg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/class/index.html",
-          src: "introitem01.png",
-          title: "클라스 페이지",
+          src: "introSlider01-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/index.html",
-          src: "introitem02.png",
-          title: "자바스크립트 정리 메인페이지",
+          src: "introSlider02-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/w-webd/index.html",
-          src: "introitem03.png",
-          title: "레이아웃 모형 페이지",
+          src: "introSlider03-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/site/index.html",
-          src: "introitem04.png",
-          title: "사이트 만들기",
+          src: "introSlider04-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/site/site1/index.html",
-          src: "introitem05.png",
-          title: "사이트 완성01",
+          src: "introSlider05-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/parallax/parallaxEffectAA.html",
-          src: "introitem06.png",
-          title: "페럴랙스 이펙트",
+          src: "introSlider06-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "http://kebab00.dothome.co.kr/php/index.html",
-          src: "introitem07.png",
-          title: "PHP블로그",
+          src: "introSlider07-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "http://kebab00.dothome.co.kr/php2/index.html",
-          src: "introitem08.png",
-          title: "PHP팀프로젝트",
+          src: "introSlider08-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/mysql/index.html",
-          src: "introitem09.png",
-          title: "MYSQL 설명",
+          src: "introSlider09-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/quiz/quizEffect01.html",
-          src: "introitem10.png",
-          title: "퀴즈 이펙트01",
+          src: "introSlider10-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab-sgame.web.app/",
-          src: "introitem11.png",
-          title: "게임이펙트",
+          src: "introSlider11-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/mouse/mouseEffect01.html",
-          src: "introitem12.png",
-          title: "마우스 이펙트01",
+          src: "introSlider00-min.jpeg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/search/searchEffect01.html",
-          src: "introitem13.png",
-          title: "검색 이펙트01",
+          src: "introSlider01-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/parallax/parallaxEffect01.html",
-          src: "introitem14.png",
-          title: "패럴랙스 이펙트01",
+          src: "introSlider02-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/slider/sliderEffect01.html",
-          src: "introitem15.png",
-          title: "슬라이드 이펙트01",
+          src: "introSlider03-min.jpg",
+          title: "프로필 사진",
         },
         {
-          url: "https://kebab000.github.io/web2023/javascript/portfolio/ex1/index.html",
-          src: "introitem16.png",
-          title: "포트폴리오 이펙트01",
+          src: "introSlider04-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider05-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider06-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider07-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider08-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider09-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider10-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider11-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider00-min.jpeg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider01-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider02-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider03-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider04-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider05-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider06-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider07-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider08-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider09-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider10-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider11-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider00-min.jpeg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider01-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider02-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider03-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider04-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider05-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider06-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider07-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider08-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider09-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider10-min.jpg",
+          title: "프로필 사진",
+        },
+        {
+          src: "introSlider11-min.jpg",
+          title: "프로필 사진",
         },
       ],
     };
