@@ -7,7 +7,7 @@
   >
     <div class="header__inner container">
       <h1 class="header__logo">
-        <router-link to="/"> VUE <em>site</em> </router-link>
+        <router-link to="/"> VUE <em>SITE</em> </router-link>
       </h1>
       <nav class="header__nav" role="navigation">
         <ul>
@@ -51,7 +51,7 @@
       font-weight: 800;
 
       em {
-        text-transform: lowercase;
+        text-transform: uppercase;
         font-weight: 500;
       }
     }

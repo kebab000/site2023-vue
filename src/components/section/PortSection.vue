@@ -53,37 +53,37 @@ export default {
     return {
       texts: [
         {
-          img: "./images/port/port01.png",
+          img: "./images/port/port01-min.png",
           title: "진현미 포트폴리오",
           desc: "프론트앤드 개발자 포트폴리오",
           icon: "./images/member/member80.svg",
         },
         {
-          img: "./images/port/port02.png",
+          img: "./images/port/port02-min.png",
           title: "김도현 포트폴리오",
           desc: "프론트앤드 개발자 포트폴리오",
           icon: "./images/member/member02.svg",
         },
         {
-          img: "./images/port/port03.png",
+          img: "./images/port/port03-min.png",
           title: "이양구 포트폴리오",
           desc: "프론트앤드 개발자 포트폴리오",
           icon: "./images/member/member03.svg",
         },
         {
-          img: "./images/port/port04.png",
+          img: "./images/port/port04-min.png",
           title: "천설희 포트폴리오",
           desc: "프론트앤드 개발자 포트폴리오",
           icon: "./images/member/member04.svg",
         },
         {
-          img: "./images/port/port05.png",
+          img: "./images/port/port05-min.png",
           title: "이승연 포트폴리오",
           desc: "프론트앤드 개발자 포트폴리오",
           icon: "./images/member/member05.svg",
         },
         {
-          img: "./images/port/port06.png",
+          img: "./images/port/port06-min.png",
           title: "김현빈 포트폴리오",
           desc: "프론트앤드 개발자 포트폴리오",
           icon: "./images/member/member06.svg",
@@ -101,13 +101,14 @@ export default {
   }
   .port__inner {
     .port__cont {
-      @include flex-center;
+      @include flex-between;
       flex-wrap: wrap;
 
       .port {
         width: 32%;
         .port__header {
           img {
+            border: 1.5px solid #000;
             height: 272px;
             border-radius: 10px;
           }
